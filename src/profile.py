@@ -4,3 +4,9 @@ class Profile:
         self.username = username
         self.password = password
         self.favourites = []
+
+    def add_movie(self, movie):
+        self.favourites.append(movie)
+
+    def remove_movie(self, movie):
+        self.favourites.remove(movie)
