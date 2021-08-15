@@ -11,6 +11,5 @@ class Account:
     
     def remove_profile(self, profile):
         self.profiles.remove(profile)
+    
 
-    # def list_of_profiles(self):
-    #     return len(self.account_1)

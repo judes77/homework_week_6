@@ -10,3 +10,5 @@ class Profile:
 
     def remove_movie(self, movie):
         self.favourites.remove(movie)
+
+        
